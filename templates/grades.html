@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Grades</h1>
+<a href="{{ url_for('add_grade') }}">Add Grade</a>
+<ul>
+    {% for g in grades %}
+    <li>{{ g.student }} - {{ g.course }} - {{ g.grade }} - {{ g.comment }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

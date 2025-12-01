@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Add Grade</h1>
+<form method="POST">
+    Student:
+    <select name="student_id" required>
+        <option value="" disabled selected>Select a student</option>
+        {% for student in students %}
+        <option value="{{ student['_id'] }}">{{ student['name'] }}</option>
+        {% endfor %}
+    </select><br>
+
+    Course:
+    <select name="course_id" required>
+        <option value="" disabled selected>Select a course</option>
+        {% for course in courses %}
+        <option value="{{ course['_id'] }}">{{ course['name'] }}</option>
+        {% endfor %}
+    </select><br>
+
+    Grade: <input type="number" name="grade" required><br>
+    Comment: <input type="text" name="comment"><br>
+    <input type="submit" value="Add">
+</form>
+{% endblock %}

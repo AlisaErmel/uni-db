@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Add Course</h1>
+<form method="POST">
+    Name: <input type="text" name="name"><br>
+    Teacher Name: <input type="text" name="teacher_name"><br>
+    Credits: <input type="number" name="credits"><br>
+    Year: <input type="number" name="year"><br>
+    Semester: <input type="text" name="semester"><br>
+
+    <div id="topics-container">
+        <label>Topics:</label><br>
+        <input type="text" name="topics[]" placeholder="Topic 1">
+    </div>
+    <button type="button" onclick="addTopic()">Add Topic</button><br><br>
+
+    <input type="submit" value="Add">
+</form>
+
+<script>
+    let topicCount = 1;
+
+    function addTopic() {
+        topicCount++;
+        const container = document.getElementById('topics-container');
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.name = 'topics[]';  // important: makes it an array in Flask
+        input.placeholder = `Topic ${topicCount}`;
+        container.appendChild(document.createElement('br'));
+        container.appendChild(input);
+    }
+</script>
+{% endblock %}

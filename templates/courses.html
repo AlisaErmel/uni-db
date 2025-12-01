@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Courses</h1>
+<a href="{{ url_for('add_course') }}">Add Course</a>
+<ul>
+    {% for c in courses %}
+    <li>
+        {{ c.name }} - {{ c.teacher_name }} - {{ c.credits }} - {{ c.year }} - {{ c.semester }} -
+        {{ c.topics | join(', ') }}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
