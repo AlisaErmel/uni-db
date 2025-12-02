@@ -1,13 +1,19 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1>Courses</h1>
-<a href="{{ url_for('add_course') }}">Add Course</a>
-<ul>
-    {% for c in courses %}
-    <li>
-        {{ c.name }} - {{ c.teacher_name }} - {{ c.credits }} - {{ c.year }} - {{ c.semester }} -
-        {{ c.topics | join(', ') }}
-    </li>
-    {% endfor %}
-</ul>
+<div class=" data-page courses-page">
+    <h1>Courses</h1>
+    <a href="{{ url_for('add_course') }}" class="button-link">Add Course</a>
+    <ul>
+        {% for c in courses %}
+        <li>
+            <span>{{ c.name }}</span>
+            <span>{{ c.teacher_name }}</span>
+            <span>{{ c.credits }}</span>
+            <span>{{ c.year }}</span>
+            <span>{{ c.semester }}</span>
+            <span>{{ c.topics | join(', ') }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

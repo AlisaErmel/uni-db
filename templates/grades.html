@@ -1,10 +1,17 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1>Grades</h1>
-<a href="{{ url_for('add_grade') }}">Add Grade</a>
-<ul>
-    {% for g in grades %}
-    <li>{{ g.student }} - {{ g.course }} - {{ g.grade }} - {{ g.comment }}</li>
-    {% endfor %}
-</ul>
+<div class="data-page grades-page">
+    <h1>Grades</h1>
+    <a href="{{ url_for('add_grade') }}" class="button-link">Add Grade</a>
+    <ul>
+        {% for g in grades %}
+        <li>
+            <span>{{ g.student }}</span>
+            <span>{{ g.course }}</span>
+            <span>{{ g.grade }}</span>
+            <span>{{ g.comment }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

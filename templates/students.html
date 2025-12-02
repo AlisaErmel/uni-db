@@ -1,10 +1,16 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1>Students</h1>
-<a href="{{ url_for('add_student') }}">Add Student</a>
-<ul>
-    {% for s in students %}
-    <li>{{ s.name }} - {{ s.student_number }} - {{ s.email }}</li>
-    {% endfor %}
-</ul>
+<div class="data-page students-page">
+    <h1>Students</h1>
+    <a href="{{ url_for('add_student') }}" class="button-link">Add Student</a>
+    <ul>
+        {% for s in students %}
+        <li>
+            <span>{{ s.name }}</span>
+            <span>{{ s.student_number }}</span>
+            <span>{{ s.email }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

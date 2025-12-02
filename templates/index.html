@@ -1,9 +1,25 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1>University DB</h1>
-<ul>
-    <li><a href="{{ url_for('list_students') }}">Students</a></li>
-    <li><a href="{{ url_for('list_courses') }}">Courses</a></li>
-    <li><a href="{{ url_for('list_grades') }}">Grades</a></li>
-</ul>
+<h1>University Database</h1>
+
+<div class="section-cards">
+    <div class="card">
+        <a href="{{ url_for('list_students') }}">
+            <h2>Students</h2>
+            <p>View and manage all students</p>
+        </a>
+    </div>
+    <div class="card">
+        <a href="{{ url_for('list_courses') }}">
+            <h2>Courses</h2>
+            <p>Explore all courses offered</p>
+        </a>
+    </div>
+    <div class="card">
+        <a href="{{ url_for('list_grades') }}">
+            <h2>Grades</h2>
+            <p>Check student grades and performance</p>
+        </a>
+    </div>
+</div>
 {% endblock %}
