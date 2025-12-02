@@ -1,16 +1,46 @@
 # 🎓 University Database Application (Python + Flask + MongoDB)
 
-This project is a Python application using **Flask** and **PyMongo** to manage a University database.  
-The database tracks students, courses, and grades, supporting full CRUD operations through a web interface.
+## This project is a Python application using **Flask** and **PyMongo** to manage a University database. The database tracks **Students**, **Courses**, and **Grades**, supporting full **CRUD** operations through a web interface.
 
 ---
+
+## 📸 Screenshots (examples)
+
+### 🎓 Home Page
+![Home Page](assets/screenshots/home.jpg)
+
+### 📚 Courses Page
+![Students Page](assets/screenshots/courses.jpg)
+
+### 📝 Add Grade Page
+![Courses Page](assets/screenshots/add_grade.jpg)
+
+---
+
+## ✨ Features
+
+- 📚 Manage Students
+
+- 🏫 Manage Courses
+
+- 📝 Manage Grades
+
+- 🔄 Full CRUD operations
+
+- 🌐 Styled frontend (HTML + CSS)
+
+- 🔒 Environment-based database configuration
+
+- 📦 Modular database operations (db.py)
+
+- 🧩 Jinja2 templates for dynamic pages
 
 ## 📂 Project Structure
 
 - `app.py` – main Flask application  
 - `requirements.txt` – Python dependencies  
 - `.env` – environment variables (MongoDB connection URI)  
-- `db_operations.py` – database operations module  
+- `db.py` – database operations module  
 
 ---
 
