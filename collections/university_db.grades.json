@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "691331067a1fa5015a51aed8"
+  },
+  "student_id": {
+    "$oid": "69132f5e7a1fa5015a51aed4"
+  },
+  "course_id": {
+    "$oid": "69132faf7a1fa5015a51aed6"
+  },
+  "grade": 5,
+  "comment": "Good work!"
+},
+{
+  "_id": {
+    "$oid": "691331067a1fa5015a51aed9"
+  },
+  "student_id": {
+    "$oid": "69132f5e7a1fa5015a51aed4"
+  },
+  "course_id": {
+    "$oid": "69132faf7a1fa5015a51aed7"
+  },
+  "grade": 4,
+  "comment": "Well done"
+},
+{
+  "_id": {
+    "$oid": "691333117a1fa5015a51aeda"
+  },
+  "student_id": {
+    "$oid": "69132f5e7a1fa5015a51aed5"
+  },
+  "course_id": {
+    "$oid": "69132faf7a1fa5015a51aed6"
+  },
+  "grade": 5,
+  "comment": "Excellent work!"
+},
+{
+  "_id": {
+    "$oid": "692d7d3a7a514c0ce375d940"
+  },
+  "student_id": {
+    "$oid": "69132f5e7a1fa5015a51aed5"
+  },
+  "course_id": {
+    "$oid": "692d7c0a1101f37d2a09b171"
+  },
+  "grade": 5,
+  "comment": "Excellent!"
+},
+{
+  "_id": {
+    "$oid": "692d90b10ec21355a7470625"
+  },
+  "student_id": {
+    "$oid": "692d905f0ec21355a7470623"
+  },
+  "course_id": {
+    "$oid": "692d90980ec21355a7470624"
+  },
+  "grade": 4,
+  "comment": "Good!"
+},
+{
+  "_id": {
+    "$oid": "692e9e156fe59ab99a1937e8"
+  },
+  "student_id": {
+    "$oid": "692e9dad6fe59ab99a1937e6"
+  },
+  "course_id": {
+    "$oid": "692e9df26fe59ab99a1937e7"
+  },
+  "grade": 3,
+  "comment": "Not good."
+}]

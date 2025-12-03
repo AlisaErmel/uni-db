@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "69132faf7a1fa5015a51aed6"
+  },
+  "name": "Databases",
+  "teacher_name": "Bob Jackson",
+  "credits": 10,
+  "year": 2021,
+  "semester": "Spring",
+  "topics": [
+    "MongoDB",
+    "NoSQL",
+    "CRUD"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69132faf7a1fa5015a51aed7"
+  },
+  "name": "Algorithms",
+  "teacher_name": "Alice Green",
+  "credits": 8,
+  "year": 2021,
+  "semester": "Fall",
+  "topics": [
+    "Sorting",
+    "Graphs",
+    "Dynamic Programming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "692d7c0a1101f37d2a09b171"
+  },
+  "name": "ICT and Business",
+  "teacher_name": "Tom Tenson",
+  "credits": 10,
+  "year": 2025,
+  "semester": "Fall",
+  "topics": [
+    "Business",
+    "Economics",
+    "Excel"
+  ]
+},
+{
+  "_id": {
+    "$oid": "692d90980ec21355a7470624"
+  },
+  "name": "English",
+  "teacher_name": "Bob Larson",
+  "credits": 5,
+  "year": 2025,
+  "semester": "Spring",
+  "topics": [
+    "Business",
+    "Life",
+    "Hobbies"
+  ]
+},
+{
+  "_id": {
+    "$oid": "692e9df26fe59ab99a1937e7"
+  },
+  "name": "French",
+  "teacher_name": "Jack Jackson",
+  "credits": 5,
+  "year": 2025,
+  "semester": "Fall",
+  "topics": [
+    "Language",
+    "Food",
+    "Hobbies",
+    "Friends"
+  ]
+}]

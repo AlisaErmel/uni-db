@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "69132f5e7a1fa5015a51aed4"
+  },
+  "name": "John Johnson",
+  "student_number": 338920,
+  "email": "john.johnson@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "69132f5e7a1fa5015a51aed5"
+  },
+  "name": "Alice Smith",
+  "student_number": 338921,
+  "email": "alice.smith@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "692d7a60a57d46c89131f302"
+  },
+  "name": "Katrin Lenson",
+  "student_number": 228930,
+  "email": "katrin.lenson@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "692d905f0ec21355a7470623"
+  },
+  "name": "Mila Kraz",
+  "student_number": 3490349,
+  "email": "mila.kraz@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "692e9dad6fe59ab99a1937e6"
+  },
+  "name": "Anna Smith",
+  "student_number": 292039,
+  "email": "anna.smith@gmail.com"
+}]
