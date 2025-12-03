@@ -2,6 +2,11 @@
 
 ## This project is a Python application using **Flask** and **PyMongo** to manage a University database. The database tracks **Students**, **Courses**, and **Grades**, supporting full **CRUD** operations through a web interface.
 
+## 🗂️ Collections from MongoDB
+
+> **💡 Note:**  
+> There are **3 `.json` files** in the `/collections` folder with example data.
+
 ---
 
 ## 📸 Screenshots (examples)
