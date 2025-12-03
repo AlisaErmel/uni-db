@@ -4,7 +4,7 @@
 
 ## 🗂️ Collections from MongoDB
 
-> **💡 Note:**  
+> [!NOTE]  
 > There are **3 `.json` files** in the `/collections` folder with example data.
 
 ---
@@ -110,7 +110,8 @@ If you do not want to use a virtual environment, you can install dependencies gl
 ```bash
 pip install -r requirements.txt
 ```
-> **⚠️ WARNING:** Using global installation is not recommended as it may cause conflicts with other Python projects or packages.
+> [!WARNING]
+> Using global installation is not recommended as it may cause conflicts with other Python projects or packages.
 
 ## 🔑 Environment Variables
 ### 1. Create a **.env** file in the project root.
