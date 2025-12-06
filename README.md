@@ -9,7 +9,7 @@
 
 ---
 
-## 📸 Screenshots (examples)
+## 📸 Screenshots (examples of the screens)
 
 ### 🎓 Home Page
 ![Home Page](assets/screenshots/home.jpg)
